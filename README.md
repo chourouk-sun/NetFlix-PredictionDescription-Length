@@ -27,6 +27,11 @@ i used the SMOTE methode to balance the training set.
 | **Weighted Avg F1** | 0.70                | 0.68          | 0.68    |
 
 
+ * Logistic Regression has the best balance between precision and recall, especially on class 1 ( minority class 'long').
+ * Random Forest shows slightly better recall for class 0, but lower recall for class 1.
+ * XGBoost gives the highest recall for class 0 (0.80) but performs poorly on class 1 recall (0.52), which may indicate bias toward the majority class.
+Because the focus is on correctly predicting class 1 ("Long" descriptions), Logistic Regression might currently be the better choice unless when fine-tune the others further.
+
 
 # confusion matrix LogisticRegression model :
 !(confusionmatrix LogisticRegression.png)
