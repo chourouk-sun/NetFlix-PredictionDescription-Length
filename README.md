@@ -34,8 +34,7 @@ Because the focus is on correctly predicting class 1 ("Long" descriptions), Logi
 
 
 # confusion matrix LogisticRegression model :
-![matrix] (confusionmatrix LogisticRegression.png)
-
+![matrix](confusionmatrix LogisticRegression.png)
 
  * Class 0 ( “Short”):
 True Negatives (TN): 720 — correctly predicted as class 0
@@ -45,9 +44,9 @@ False Negatives (FN): 222 — incorrectly predicted as class 0
 True Positives (TP): 502 — correctly predicted as class 1
 
 * **Accuracy** = (TP + TN) / Total = (720 + 502) / 1762 ≈ **0.69** : Good baseline   
-* **Precision (Long)** = TP / (TP + FP) = 502 / (502 + 318) ≈ **0.61**  : Some false positives ✔
+* **Precision (Long)** = TP / (TP + FP) = 502 / (502 + 318) ≈ **0.61**  : Some false positives 
 * **Recall (Long)** = TP / (TP + FN) = 502 / (502 + 222) ≈ **0.69** : Catches most long descriptions 
-* **F1-score (Long)** ≈ **0.65** :  Balanced score ✔
+* **F1-score (Long)** ≈ **0.65** :  Balanced score 
 
   # Conclusion
 - I built a classification model to predict whether a Netflix description is long or short.
