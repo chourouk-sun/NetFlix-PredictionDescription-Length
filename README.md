@@ -34,7 +34,8 @@ Because the focus is on correctly predicting class 1 ("Long" descriptions), Logi
 
 
 # confusion matrix LogisticRegression model :
-![matrix](confusionmatrix LogisticRegression.png.png)
+!(confusionmatrix LogisticRegression.png)
+
 
  * Class 0 ( “Short”):
 True Negatives (TN): 720 — correctly predicted as class 0
